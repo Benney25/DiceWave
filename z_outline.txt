@@ -1,0 +1,27 @@
+user inputs the length of the password they want
+delimit each word with random symbols
+print to a tkinter window
+save generated passwords to a sql file
+    is the sql file the database? or is the sql file just scripting?
+
+
+Main Window
+Dicewave.py
+
+Python Logic
+Logic.py
+
+Word List
+Wordlist.sql
+
+            Do not store the passwords generated after the end of the session.
+
+mysql word list
+
+could use this as a 'microservice' for an account information tracking software also using python, sql, tkinter.
+
+
+
+
+
+
