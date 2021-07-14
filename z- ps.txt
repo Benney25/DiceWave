@@ -1,9 +1,3 @@
-user inputs the length of the password they want
-delimit each word with random symbols
-print to a tkinter window
-
-mysql word list
-
 input1(password length)
     #the number of times that func1 will iterate before closing
 
