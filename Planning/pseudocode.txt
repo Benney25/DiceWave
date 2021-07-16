@@ -1,0 +1,56 @@
+
+07/15/2021
+
+Tkinter Window - DiceWave.py
+    user inputs the length of the password they want by selecting how many words DiceWave will use to generate the password
+        drop down box 1-5
+    user presses a button that says 'generate'
+    password is output to a text box on the screen and disappears after 1 minute
+Scripting - Logic.py
+    
+    def diceroll(): 
+        roll random 1-6
+        concatenate previous concatenated result and new result
+            x += roll
+        if func() has repeated (input) times, end
+        else, repeat
+            (while loop) w3schools
+    delimit each word with random symbols
+    def concats():
+        roll 
+        for x in 
+    
+    print to a tkinter window
+Word List - Wordlist.sql
+
+
+7/09/2021
+
+input1(password length)
+    #the number of times that func1 will iterate before closing
+
+func1
+    var1 = random 1-7776
+    mysql call (var1)
+
+    if =/= (input1) then repeat
+    if (what is equal to input1?)= (input 1) then end
+    #if what? What is equal to input1?
+
+    #how to count the number of iterations of this function
+    #or
+    #how to repeat this function (input1) number of times.
+    #is a for loop most appropriate here?
+    #for func1 in input1 return ????????????
+    #for x in input1?
+    
+    #beginning
+    #while x < input1
+    #rest of function
+    #if x == input1 break
+    #end
+
+    Concatenate result sequentially with +=
+
+print (func1)
+    #print text to window, replace this with tkinter option

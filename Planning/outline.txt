@@ -1,0 +1,31 @@
+Tkinter Window - DiceWave.py
+    user inputs the length of the password they want by selecting how many words DiceWave will use to generate the password
+        drop down box 1-5
+    user presses a button that says 'generate'
+    password is output to a text box on the screen and disappears after 1 minute
+Scripting - Logic.py
+    func1
+        Roll 1-6
+        x += result (store result as x, concatenate previous result with new result)
+        loop until result is greater than 9999
+        store number as:_? output to:_?
+    func2
+        run func1 (input) times
+        output to tuple
+        for each number in the tuple, call the corresponding word from Wordlist.sql
+        output each word sequentially into a new tuple
+    func3
+        tuple = (\!,\@,\#,\$,\%,\^,\&,\*,\(,\),\_,\+,\{,etc...)
+        roll for random symbol in tuple (IMPORTANT: must specify tuple content as string)
+        repeat (input -1) times
+        output as tuple
+    func4
+        dance between wordlist tuple and delimiter tuple, concatenating the result beginning to end as a string 
+        print result to a tkinter window
+Word List - Wordlist.sql
+    how do we find the word 
+        by its associated number in an adjacent column?
+        by row and column number?
+        search parameters?
+        is sql, mysql, or some other language most appropriate?
+    how to get the files to interact and communicate with each other.
