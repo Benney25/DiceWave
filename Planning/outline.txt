@@ -10,18 +10,27 @@ Scripting - Logic.py
         loop until result is greater than 9999
         store number as:_? output to:_?
     func2
+        tuple = (\!,\@,\#,\$,\%,\^,\&,\*,\(,\),\_,\+,\{,etc...)
+        roll for random symbol in tuple (IMPORTANT: must specify tuple content as string {when/where?})
+        repeat (input -= 1) times
+        output as tuple
+            (code can be executed like this, but maybe there is a simpler way)
+    func3
         run func1 (input) times
         output to tuple
         for each number in the tuple, call the corresponding word from Wordlist.sql
         output each word sequentially into a new tuple
-    func3
-        tuple = (\!,\@,\#,\$,\%,\^,\&,\*,\(,\),\_,\+,\{,etc...)
-        roll for random symbol in tuple (IMPORTANT: must specify tuple content as string)
-        repeat (input -1) times
-        output as tuple
     func4
         dance between wordlist tuple and delimiter tuple, concatenating the result beginning to end as a string 
         print result to a tkinter window
+    AltFinFunc
+        func1
+        +=
+        func2
+        while x < input
+            else end
+Was I attempting to use tuples for my while loops, in order to continue the loop until input# of indexes is met? 
+    https://stackoverflow.com/questions/14532875/creating-for-loop-until-list-length
 Word List - Wordlist.sql
     how do we find the word 
         by its associated number in an adjacent column?
