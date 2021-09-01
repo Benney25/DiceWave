@@ -6,12 +6,12 @@ Tkinter Window - DiceWave.py
 Scripting - Logic.py
     func1
         Roll 1-6
-        x += result (store result as x, concatenate previous result with new result)
+        x += result (store result as x, concatenate previous result with new result(isn't '+=' an arithmetic operator?))
         loop until result is greater than 9999
         store number as:_? output to:_?
     func2
         tuple = (\!,\@,\#,\$,\%,\^,\&,\*,\(,\),\_,\+,\{,etc...)
-        roll for random symbol in tuple (IMPORTANT: must specify tuple content as string {when/where?})
+        roll for random symbol in tuple (IMPORTANT: must specify tuple content as string {when/where/how?})
         repeat (input -= 1) times
         output as tuple
             (code can be executed like this, but maybe there is a simpler way)
@@ -23,10 +23,9 @@ Scripting - Logic.py
     func4
         dance between wordlist tuple and delimiter tuple, concatenating the result beginning to end as a string 
         print result to a tkinter window
-    AltFinFunc
-        func1
-        +=
-        func2
+    AltFinFunc (-if using this function, do not need a loop in either other function-)
+        x += func1
+        x += func2
         while x < input
             else end
 Was I attempting to use tuples for my while loops, in order to continue the loop until input# of indexes is met? 
@@ -38,3 +37,30 @@ Word List - Wordlist.sql
         search parameters?
         is sql, mysql, or some other language most appropriate?
     how to get the files to interact and communicate with each other.
+.txt wordlist of 58,000 words
+    http://www.mieliestronk.com/wordlist.html
+
+Calling data from a list using new line delimiter python
+    How to read a newline-delimited text files
+        https://www.kite.com/python/answers/how-to-read-a-newline-delimited-text-file-in-python
+    How to join a list together with a newline character in python
+        https://www.kite.com/python/answers/how-to-join-a-list-together-with-a-newline-character-in-python
+Parsing a list by line
+Getting the amount of lines of the file, from file (send to random roll)
+    https://www.kite.com/python/answers/how-to-get-a-line-count-of-a-file-in-python
+    file = open("sample.txt", "r")
+    line_count = len(nonempty_lines)
+    file.
+    print(line_count)
+roll random out of xlines
+Getting a specific (specified) line from file python
+    https://www.geeksforgeeks.org/how-to-read-specific-lines-from-a-file-in-python/
+    https://stackoverflow.com/questions/2081836/how-to-read-specific-lines-from-a-file-by-line-number
+result += subject
+txt file of special characters
+    https://stackoverflow.com/questions/27219774/read-special-characters-from-txt-file-in-python
+    https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/special-chars.txt
+
+
+
+
