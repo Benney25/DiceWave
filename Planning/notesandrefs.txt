@@ -1,0 +1,48 @@
+position, line, python
+    I searched this because I don't understand the way that python file management works. I will need to do more research into it later - for now, guess work will have to do.
+    https://www.google.com/search?client=firefox-b-1-d&q=position%2C+line+python
+    https://stackoverflow.com/questions/47257185/how-to-read-a-specific-line-and-print-a-specific-position-in-this-line-using-pyt/47257286
+    https://stackoverflow.com/questions/35019935/python-how-do-i-find-line-position-in-file-and-move-around-that-line
+
+
+deciding between loops:
+https://www.w3schools.com/python/python_for_loops.asp 
+
+python loop until condition is true
+    https://www.google.com/search?client=firefox-b-1-d&q=python+loop+until+condition+is+true
+    http://www.trytoprogram.com/python-programming/python-while-loop/
+    http://www.trytoprogram.com/python-programming/python-if-else-statement/
+    https://stackoverflow.com/questions/1662161/is-there-a-do-until-in-python
+    https://stackoverflow.com/questions/743164/how-to-emulate-a-do-while-loop
+
+python run function x times
+    https://www.google.com/search?client=firefox-b-1-d&q=python+run+function+x+times
+    https://stackoverflow.com/questions/4264634/more-pythonic-way-to-run-a-process-x-times
+
+put a wait python function
+    i searched this because I assumed that my functions and variables might have been executing too quickly for the files to be closed and reopened
+    i ended up noticing that I opened the file a second time but did not reclose it
+    I also noticed that a large portion of my program was global, so I checked for variable interference, closed files once I was done with each individual use of the file for each individual action, and combined closely related actions into one function.
+    https://www.google.com/search?client=firefox-b-1-d&q=put+a+wait+python+function
+    https://www.udacity.com/blog/2014/04/how-to-make-python-program-wait.html
+
+generating a series of random words from a list python
+    I searched this because I thought I might have been doing this all the hard way, maybe I could get a hint from someone elses project.
+    https://www.google.com/search?client=firefox-b-1-d&q=calling+a+number+of+random+words+from+a+list
+
+how to concatenate function output python
+    I need to concatenate the outputs together in order to generate a single string password, but I'm not sure how.
+    https://www.google.com/search?client=firefox-b-1-d&q=how+to+concatenate+function+output+python
+    https://stackoverflow.com/questions/16088101/python-concatenate-string-and-function/16088214
+        https://stackoverflow.com/questions/26875577/concatenating-functions-in-python
+            I cannot concatenate functions
+            print writes directly to terminal
+            I need to produce strings instead, which I can concatenate
+            then print separately
+                def var():
+                    return: "getpass? or getword?"
+                in either case, move for loop to the function which concatenates the returned strings
+
+i cannot concatenate functions - and my results are output to terminal - maybe if I output my results to a file, I can then call the output from the file and concatenate it?  this sounds inefficient
+
+

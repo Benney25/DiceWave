@@ -1,9 +1,6 @@
 import random
 import math
 
-
-
-
 def getword():
 
 # get the number of newlines in the text file
@@ -26,12 +23,9 @@ def getword():
             print(line)
     file.close()
 
-# getword()
-
+# call the word (input-var), or (static-6) times.
 def getpass():
-    # getword()
     g = 0
-    # getword()
     for i in range(6):
         getword()
         g += 1
