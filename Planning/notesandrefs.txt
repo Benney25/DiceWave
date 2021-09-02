@@ -4,9 +4,8 @@ position, line, python
     https://stackoverflow.com/questions/47257185/how-to-read-a-specific-line-and-print-a-specific-position-in-this-line-using-pyt/47257286
     https://stackoverflow.com/questions/35019935/python-how-do-i-find-line-position-in-file-and-move-around-that-line
 
-
 deciding between loops:
-https://www.w3schools.com/python/python_for_loops.asp 
+    https://www.w3schools.com/python/python_for_loops.asp 
 
 python loop until condition is true
     https://www.google.com/search?client=firefox-b-1-d&q=python+loop+until+condition+is+true
@@ -43,6 +42,11 @@ how to concatenate function output python
                     return: "getpass? or getword?"
                 in either case, move for loop to the function which concatenates the returned strings
 
-i cannot concatenate functions - and my results are output to terminal - maybe if I output my results to a file, I can then call the output from the file and concatenate it?  this sounds inefficient
+create a function to return a random delimiter each time it is called
+    can basically be a copy of the wordlist function, except with random characters instead of words
 
-
+certificationstation
+    I would suggest:
+    word = line.rstrip('\r\n')
+    that'll strip any newlines off of it before returning it to the generator
+        https://stackoverflow.com/questions/28228383/difference-between-n-and-r-n-in-python
