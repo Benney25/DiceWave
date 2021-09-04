@@ -61,12 +61,14 @@ def getstr():
     j = f + g + h
     return(j)
 
-# 
+# why does this function work this way and not with r = r + r?
+# is there any way I can get this to work without needing to use str on every func call?
+# why do I need to use str on every func call for this func to work?
 def getpass():
     r = str(getstr())
-    for i in range(5):
+    for i in range(2):
         r = r + str(getstr())
-    return {r}
+    return (r)
 
 
 print(getpass())
